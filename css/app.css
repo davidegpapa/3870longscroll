@@ -1,6 +1,5 @@
 a:link{color: black; text-decoration: none;}
 a:hover{color: white; transition: .4s;}
-a:visited{color: darkgray;}
 
 body{
   background-color: #FFF7E6;
@@ -110,7 +109,7 @@ p{
 	position:fixed;
 	top:0px;
 	right:100px;
-	height: 60px;
+	height: 100px;
   left: 100px;
 	width: 1200px;
 	background: #D91818;
@@ -120,7 +119,7 @@ p{
   font-size: 2.2em;
   font-weight: lighter;
   letter-spacing: 3px;
-  padding: 15px;
+  padding: 20px;
 }
 #wrapper{
   margin: 0 auto;
@@ -131,11 +130,15 @@ footer{
   bottom: 0px;
   left: 100px;
   right: 100px;
-  height: 20px;
+  height: 50px;
   background-color: #F27D16;
   border-radius: 12px 12px 0px 0px;
-  padding: 20px;
-
+  padding: 6px;
+}
+.links{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 #contact{
   text-align: left;
@@ -146,7 +149,11 @@ footer{
   text-align: right;
   margin-right: 20px;
   float: right;
+  padding: 10px;
 }
-  .cd-section {
-    height: 100vh;
-  }
+
+.testimonial{
+  width: 100%;
+  padding: 30px;
+
+}
