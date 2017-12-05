@@ -1,0 +1,152 @@
+a:link{color: black; text-decoration: none;}
+a:hover{color: white; transition: .4s;}
+a:visited{color: darkgray;}
+
+body{
+  background-color: #FFF7E6;
+}
+#pg{
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  text-align: center;
+  top: 400px;
+  position: relative;
+  line-height: 36px;
+}
+#gear{
+  width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  text-align: right;
+  z-index: -1;
+  position: relative;
+  line-height: 36px;
+  background-color: red;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.3em;
+  letter-spacing: 3.3px;
+}
+.main{  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+h1{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.2em;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  line-height: 50px;
+}
+h2{
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.4em;
+  letter-spacing: 3px;}
+p{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: .8em;
+  line-height: 14px;
+}
+.description{
+  display: none;
+}
+.post {
+	margin-right: 50px;
+  margin-left: 50px;
+	margin-bottom: 20px;
+  height: 1200px;
+}
+
+.gear {
+	margin-right: 50px;
+  margin-left: 50px;
+	margin-bottom: 20px;
+  height: 1000px;
+  text-align: center;
+}
+#recorder{
+  background-image: url(../img/recorder.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#buffet{
+  background-image: url(../img/buffet.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#fender{
+  background-image: url(../img/fender.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#martin{
+  background-image: url(../img/martin.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#cort{
+  background-image: url(../img/cort.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#rode{
+  background-image: url(../img/rode.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#describe{
+  position: fixed;
+  top: 140px;
+  right: 100px;
+  width: 350px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: .9em;
+  line-height: 16px;
+
+}
+#banner{
+	position:fixed;
+	top:0px;
+	right:100px;
+	height: 60px;
+  left: 100px;
+	width: 1200px;
+	background: #D91818;
+  border-radius: 0px 0px 14px 14px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.2em;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  padding: 15px;
+}
+#wrapper{
+  margin: 0 auto;
+  position: relative;
+  }
+footer{
+  position: fixed;
+  bottom: 0px;
+  left: 100px;
+  right: 100px;
+  height: 20px;
+  background-color: #F27D16;
+  border-radius: 12px 12px 0px 0px;
+  padding: 20px;
+
+}
+#contact{
+  text-align: left;
+  margin-left: 20px;
+  float: left;
+}
+#copy{
+  text-align: right;
+  margin-right: 20px;
+  float: right;
+}
+  .cd-section {
+    height: 100vh;
+  }
